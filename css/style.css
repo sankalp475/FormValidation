@@ -1,0 +1,28 @@
+#alert{
+	position: absolute;
+	top: 2px;
+	margin: 5px;
+    width: 98.99%;
+}
+
+form{
+	position: relative;
+	top: -10px;
+}
+input:focus,
+textarea:focus,
+select:focus{
+   border: 3px solid hsl(171, 100%, 41%) !important;
+}
+input[class="input"]:focus{
+    box-shadow: none;
+}
+textarea[class="textarea"]:focus{
+    box-shadow: none;
+}
+select:focus{
+    box-shadow: none;
+}
+option{
+	border: 2px solid hsl(171, 100%, 41%) !important;
+}

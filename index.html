@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<div class="columns is-centered">
+		<div class="column is-half">
+			<p class="bd-notification is-primary">
+			<h1 class="is-size-2 has-text-centered my-5" style="color:hsl(171, 100%, 41%); ">Traveler Desk</h1>
+			</p>
+		</div>
+	</div>
+	<div class="massageRoot">
+	</div>
+	<div class="container is-centered">
+		<form action=""  class="my-form my-5 mx-5">
+			<label class="label">Name</label>
+			<div class="control">
+				<input class="input" id="name" type="text" placeholder="Text input">
+				<p class="helpName"></p>
+				
+			</div>
+
+			<div class="field">
+				<label class="label">Email</label>
+				<div class="control">
+					<input class="input" id="Email" type="text" placeholder="e.g. alexsmith@gmail.com">
+				</div>
+				<p class="helpEmail"></p>
+			</div>
+			<div class="field">
+				<label class="label">phone number</label>
+				<div class="control">
+					<input class="input" id="phn" type="text" placeholder="Text input">
+				</div>
+				<p class="helpPhone"></p>
+			</div>
+			<div class="field">
+				<label class="label">Your default address</label>
+				<div class="control">
+					<textarea class="textarea" id="addr"placeholder="Textarea"></textarea>
+				</div>
+			</div>
+			<div class="field">
+				<label class="label">Choude your vahical</label>
+				<div class="control">
+					<div class="select">
+						<select id="car">
+							<option>Omic</option>
+							<option>Maruti 800</option>
+							<option>ford titanium</option>
+							<option>Audi R8</option>
+							<option>BMW</option>
+							<option>Bugati</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="field is-grouped">
+				<p class="control">
+					<a class="button is-primary" id="submit">
+						Submit
+					</a>
+				</p>
+				<p class="control">
+					<a class="button is-light" id="cencel">
+						Cancel
+					</a>
+				</p>
+			</div>
+		</form>
+	</div>
+	<script src="js/validMe.js"></script>
+</body>
+</html>
